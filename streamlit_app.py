@@ -4,7 +4,6 @@ from streamlit_folium import st_folium
 from folium.plugins import MarkerCluster
 import pandas as pd
 
-
 st.title("진주시 CCTV 현황")
 
 df = pd.read_csv("data/jinju_cctv_20250513.csv", encoding='euc-kr')
